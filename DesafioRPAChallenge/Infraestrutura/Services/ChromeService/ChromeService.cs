@@ -1,5 +1,4 @@
-﻿
-using Dominio.Interfaces;
+﻿using Dominio.Interfaces;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using Polly.Retry;
