@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Executor", "Executor\Execut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{6F5BA72D-900B-4A69-BC29-60335BD45135}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestrutura", "Infraestrutura\Infraestrutura.csproj", "{25582D92-F0B0-4499-80FE-AD4D5B274A3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6F5BA72D-900B-4A69-BC29-60335BD45135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F5BA72D-900B-4A69-BC29-60335BD45135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F5BA72D-900B-4A69-BC29-60335BD45135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25582D92-F0B0-4499-80FE-AD4D5B274A3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25582D92-F0B0-4499-80FE-AD4D5B274A3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25582D92-F0B0-4499-80FE-AD4D5B274A3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25582D92-F0B0-4499-80FE-AD4D5B274A3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A50FD7BF-1C2F-40C9-BA98-308493890B25} = {8CEC93C4-5F0A-47AD-AB84-4BA4A759F327}
 		{6F5BA72D-900B-4A69-BC29-60335BD45135} = {B4CE20B5-7552-4510-A98C-0335F925F16E}
+		{25582D92-F0B0-4499-80FE-AD4D5B274A3B} = {1192A64E-AFAA-46BB-A56B-D056840709B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65F5F854-331B-4C51-8B79-D064867F4F57}
