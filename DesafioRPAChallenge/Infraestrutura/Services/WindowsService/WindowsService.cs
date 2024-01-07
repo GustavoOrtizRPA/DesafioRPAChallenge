@@ -1,8 +1,10 @@
-﻿using System.Diagnostics;
+﻿
+using Dominio.Interfaces;
+using System.Diagnostics;
 
-namespace Infraestrutura.Services.WindowService
+namespace Infraestrutura.Services.WindowsService
 {
-    public class WindowService
+    public class WindowsService : IWindowsService
     {
         /// <summary>
         /// Matar processos utilizados

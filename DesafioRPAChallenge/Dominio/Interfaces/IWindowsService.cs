@@ -1,7 +1,7 @@
 ﻿
 namespace Dominio.Interfaces
 {
-    public interface IWindowService
+    public interface IWindowsService
     {
         /// <summary>
         /// Matar processos utilizados
