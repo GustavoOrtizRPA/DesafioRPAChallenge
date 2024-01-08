@@ -1806,11 +1806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Executor\\Executor.csproj",
+      "projectUniqueName": "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Executor\\Executor.csproj",
       "projectName": "Executor",
-      "projectPath": "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Executor\\Executor.csproj",
+      "projectPath": "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Executor\\Executor.csproj",
       "packagesPath": "C:\\Users\\Gustt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Executor\\obj\\",
+      "outputPath": "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Executor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gustt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1827,8 +1827,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Infraestrutura\\Infraestrutura.csproj": {
-              "projectPath": "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Infraestrutura\\Infraestrutura.csproj"
+            "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Infraestrutura\\Infraestrutura.csproj": {
+              "projectPath": "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Infraestrutura\\Infraestrutura.csproj"
             }
           }
         }
@@ -1868,7 +1868,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

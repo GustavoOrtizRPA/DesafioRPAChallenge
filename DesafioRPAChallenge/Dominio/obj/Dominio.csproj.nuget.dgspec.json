@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Dominio\\Dominio.csproj": {}
+    "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Gustt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gustt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

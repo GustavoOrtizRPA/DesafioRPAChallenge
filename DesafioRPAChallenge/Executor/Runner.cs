@@ -8,25 +8,18 @@ namespace Executor
         private readonly IRpaChallengeService _rpaChallengeService;
         private readonly IWindowsService _windowsService;
         private readonly IOutlookService _outlookService;
-        private readonly IWebDriverService _webDriverService;
-        private readonly ICsvService _csvService;
         private readonly string _diretorioBase = @"C:\Users\Gustt\Downloads";
-        private readonly string _path = @$"C:\RPA\DesafioRPAChallenge\log_{DateTime.Now:dd_MM_yyyy}.csv";
 
         public Runner(
             IRpaChallengeService rpaChallengeService,
             IWindowsService windowsService,
-            IOutlookService outlookService,
-            IWebDriverService webDriverService,
-            ICsvService csvService
+            IOutlookService outlookService
 
             ) 
         {
             _rpaChallengeService = rpaChallengeService;
             _windowsService = windowsService;
             _outlookService = outlookService;
-            _webDriverService = webDriverService;
-            _csvService = csvService;
         }
 
         public void Run()
@@ -113,10 +106,7 @@ namespace Executor
                             status = "Falha";
                             mensagem = e.Message;
                         }
-                        finally 
-                        {
-                            //_csvService.Write(_path, firstName.ToString(), lastName.ToString(), companyName.ToString(), roleCompany.ToString(), address.ToString(), email.ToString(), phoneNumber.ToString(),status,mensagem);
-                        }
+
                     }
                 }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dpW3S7LOZSzdmTZ1AVpuhydaKqwZW8RlTPIinPjnHJM6opSSlZc4tYroOj17UlYjGlPmCXecoSCZ4eSCUDHRQQ==",
+  "dgSpecHash": "iyC7b2N8y23DCMJqTjEkp6DtBKrS5FSOIOl97jVhfizMeNdhJNh4Dv6XFSSwm36LYjD78JMjEV+AviJNpi03+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gustt\\Downloads\\DesafioRPAChallenge\\DesafioRPAChallenge\\Infraestrutura\\Infraestrutura.csproj",
+  "projectFilePath": "C:\\Users\\Gustt\\OneDrive\\Documentos\\Estudo\\DesafioRPAChallenge\\DesafioRPAChallenge\\Infraestrutura\\Infraestrutura.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gustt\\.nuget\\packages\\anglesharp\\1.0.4\\anglesharp.1.0.4.nupkg.sha512",
     "C:\\Users\\Gustt\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
