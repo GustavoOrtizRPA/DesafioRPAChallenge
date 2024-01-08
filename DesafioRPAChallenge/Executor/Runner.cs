@@ -122,7 +122,7 @@ namespace Executor
 
                 var resultadoDesafio = _rpaChallengeService.ResultadoDesafio();
 
-                //_outlookService.EnviarEmail(arquivosXlsx[0], resultadoDesafio);
+                _outlookService.EnviarEmail(arquivosXlsx[0], resultadoDesafio);
                 
             }
             catch (Exception)

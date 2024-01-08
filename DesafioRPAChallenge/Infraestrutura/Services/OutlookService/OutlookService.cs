@@ -23,6 +23,10 @@ namespace Infraestrutura.Services.OutlookService
 
             // Enviar o e-mail
             mailItem.Send();
+
+            // Liberar recursos
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(mailItem);
+            System.Runtime.InteropServices.Marshal.ReleaseComObject(outlookApp);
         }
     }
 }
