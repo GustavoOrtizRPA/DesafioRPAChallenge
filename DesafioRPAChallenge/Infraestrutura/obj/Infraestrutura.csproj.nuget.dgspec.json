@@ -105,6 +105,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Office.Interop.Outlook": {
+              "target": "Package",
+              "version": "[15.0.4797.1004, )"
+            },
             "Polly": {
               "target": "Package",
               "version": "[8.2.1, )"

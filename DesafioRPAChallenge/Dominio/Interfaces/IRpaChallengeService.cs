@@ -12,5 +12,15 @@ namespace Dominio.Interfaces
         /// Navegar para uma url
         /// </summary>
         void GoToUrl();
+
+        void DownloadExcel();
+
+        void ClicarStart();
+
+        void PreencherFormulario(string firstName, string lastName, string companyName, string roleCompany, string address, string email, string phoneNumber);
+
+        void ClicarSubmit();
+
+        string ResultadoDesafio();
     }
 }
