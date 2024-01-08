@@ -5,7 +5,7 @@ namespace Infraestrutura.Services.CsvService
 {
     public class CsvService : ICsvService
     {
-        public void Write(string path,string firstName, string lastName, string companyName, string roleCompany, string address, string email, string phoneNumber)
+        public void Write(string path,string firstName, string lastName, string companyName, string roleCompany, string address, string email, string phoneNumber, string status, string mensagem)
         {
             if (Directory.Exists(Path.GetDirectoryName(path))) 
             {

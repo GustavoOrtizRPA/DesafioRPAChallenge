@@ -74,17 +74,17 @@ namespace Executor
                     {
                         var status = string.Empty;
                         var mensagem = string.Empty;
+
+                        // Obtém o valor da célula na linha atual e coluna atual
+                        var firstName = (string)worksheet.Cells[row, 1].Value;
+                        var lastName = (string)worksheet.Cells[row, 2].Value;
+                        var companyName = (string)worksheet.Cells[row, 3].Value;
+                        var roleCompany = (string)worksheet.Cells[row, 4].Value;
+                        var address = (string)worksheet.Cells[row, 5].Value;
+                        var email = (string)worksheet.Cells[row, 6].Value;
+                        var phoneNumber = worksheet.Cells[row, 7].Value;
                         try
                         {
-                            // Obtém o valor da célula na linha atual e coluna atual
-                            var firstName = (string)worksheet.Cells[row, 1].Value;
-                            var lastName = (string)worksheet.Cells[row, 2].Value;
-                            var companyName = (string)worksheet.Cells[row, 3].Value;
-                            var roleCompany = (string)worksheet.Cells[row, 4].Value;
-                            var address = (string)worksheet.Cells[row, 5].Value;
-                            var email = (string)worksheet.Cells[row, 6].Value;
-                            var phoneNumber = worksheet.Cells[row, 7].Value;
-
                             if (firstName == null)
                             {
                                 break;
@@ -105,6 +105,8 @@ namespace Executor
 
                             _rpaChallengeService.PreencherFormulario(firstName.ToString(), lastName.ToString(), companyName.ToString(), roleCompany.ToString(), address.ToString(), email.ToString(), phoneNumber.ToString());
                             _rpaChallengeService.ClicarSubmit();
+                            status = "Sucesso";
+                            mensagem = string.Empty;
                         }
                         catch (Exception e)
                         {
@@ -113,7 +115,7 @@ namespace Executor
                         }
                         finally 
                         {
-                            //_csvService.Write(_path, firstName, lastName, companyName, roleCompany, address, email, phoneNumber);
+                            //_csvService.Write(_path, firstName.ToString(), lastName.ToString(), companyName.ToString(), roleCompany.ToString(), address.ToString(), email.ToString(), phoneNumber.ToString(),status,mensagem);
                         }
                     }
                 }

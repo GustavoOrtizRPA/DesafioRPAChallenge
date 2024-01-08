@@ -15,6 +15,8 @@ namespace Dominio.Interfaces
         /// <param name="address"></param>
         /// <param name="email"></param>
         /// <param name="phoneNumber"></param>
+        /// <param name="status"></param>
+        /// <param name="mensagem"></param>
         public void Write(
             string path,
             string firstName, 
@@ -23,6 +25,8 @@ namespace Dominio.Interfaces
             string roleCompany, 
             string address, 
             string email, 
-            string phoneNumber);
+            string phoneNumber,
+            string status,
+            string mensagem);
     }
 }
